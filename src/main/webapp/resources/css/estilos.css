@@ -1,0 +1,81 @@
+@charset "ISO-8859-1";
+*{
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	width: 100%;
+	background: #E91515;
+	height: 70px;
+	/*position: fixed;*/
+	z-index: 10;
+}
+/*aqui estamos modificando el ancho*/
+.ancho{
+	width: 80%;
+	height: 70px;
+	/*background: white;*/
+	margin: auto;
+}
+.logo{
+	width: 30%;
+	height: 70px;
+	/*background: blue;*/
+	float: left;
+	padding-top: 10px;
+	box-sizing: border-box;
+}
+.logo p a{
+	color: #fff;
+	font-size: 40px;
+	text-decoration: none;
+	font-weight: bold;
+	font-family: rale;
+
+
+}
+.logo p a:hover{
+	color: black;
+}
+nav{
+	width: 60%;
+	height: 70px;
+	background: #E91515;
+	float: right;
+	text-align: right;
+	padding-top: 24px;
+	box-sizing: border-box;
+	z-index: 9;
+}
+nav ul li{
+	display: inline;
+}
+nav ul li a{
+	color: white;
+	font-size: 13px;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding-left: 15px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	font-family: rale;
+}
+nav ul li a:hover{
+	color: black;
+}
+
+.cambiarBoton {
+	background: #E91515;
+	border-bottom: none;
+	border-color:transparent !important;
+	background-clip: none;
+	
+}
+.cambiarBoton::selection{
+	background: #E91515;	
+}
+@font-face{
+	font-family: rale;
+	src:url(Raleway-Regular.ttf);
+} 

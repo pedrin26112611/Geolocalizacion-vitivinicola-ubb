@@ -1,0 +1,25 @@
+
+.ancho-letras{
+	top: 200px;
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	z-index: 1;
+}
+.letras-slider{
+	width: 100%;
+	margin: auto;
+}
+.letras-slider h1{
+	color: #E91515;
+	font-family: rale;
+	font-size: 70px;
+
+}
+.letras-slider p{
+	color: #E91515;
+	font-size: 40px;
+	font-family: rale;
+	padding-top: 60px;
+	font-weight: normal;
+}
